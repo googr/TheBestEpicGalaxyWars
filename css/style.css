@@ -1,0 +1,113 @@
+#List{
+	width: 15%;
+	float: left;
+	background-color: beige;
+	text-align: center;
+}
+#Text {
+	width: 75%;
+	background-color: ivory;
+}
+#IPage {
+	width: 75%;
+	margin: 0 auto;
+}
+body {overflow:hidden;
+	background-color:black !important; }
+#IParaBack { 
+	transform: translateZ(0); 
+	width: 150%; 
+	height: 3000px; 
+	position: absolute; 
+	background: url("../img/111.jpg"); 
+	top:-100px; 
+	left:-25%;
+}
+.mainscreen {
+position: absolute;
+top: 20%
+}
+#Area{
+	position: absolute;
+	top:calc(50% - 400px);
+	left:calc(50% - 500px);
+	width: 1000px;
+	height: 800px;
+	border-left: solid 5px white;
+	border-right:solid 5px white;
+}
+#IParaFront { 
+	transform: translateZ(0); 
+	width: 150%; height: 3000px; 
+	position: absolute; 
+	background: url("../img/222.png");
+	top:-100px; 
+	left:-25%;
+}
+#Player { 
+	transform: translateZ(0); 
+	background-image: url("../img/Starship.png");
+	background-size:50px 80px;
+}
+#bullet1 { 
+	transform: translateZ(0); 
+	background-image: url("../img/bullet.png");
+	background-position: -9px -20px;
+}
+#bullet2 { 
+	transform: translateZ(0); 
+	background-image: url("../img/bullet.png");
+	background-position: -53px -20px;
+}
+#bullet3 { 
+	transform: translateZ(0); 
+	background-image: url("../img/bullet.png");
+	background-position: -420px -20px;
+}
+.tor {
+	background-color: rgba(220,215,240,0.3);
+	color: white;
+}
+#Scoretable {
+    position: absolute;
+    top:20px;
+    right: 0;
+    text-align: left;
+    font-size: 40px;
+    color: orange;
+ }
+
+#Fails{
+    position: absolute;
+    top:20px;
+    left: 0;
+    text-align: left;
+    font-size: 40px;
+    color: red;
+}
+#enemy1 {
+	transform: translateZ(0);
+	background-image: url("../img/Enemy.png");
+	background-position: 1px 1px;
+	background-repeat: no-repeat;
+}
+#enemy2 {
+    transform: translateZ(0);
+    background-image: url("../img/Enemy.png");
+    background-position: -120px 0;
+    background-repeat: no-repeat;
+}
+#enemy3 {
+    transform: translateZ(0);
+    z-index: 9;
+    background-image: url("../img/Enemy.png");
+    background-position: -220px 0;
+    background-repeat: no-repeat;
+}
+.modalScore {
+border: solid 5px red;
+}
+
+.hide{
+	display: none;
+}
